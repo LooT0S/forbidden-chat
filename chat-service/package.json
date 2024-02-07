@@ -1,0 +1,32 @@
+{
+  "name": "chat-service",
+  "version": "0.1.0",
+  "description": "Service for exchanging messages between users",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LooT0S/forbidden-chat.git"
+  },
+  "keywords": [
+    "ws",
+    "redis"
+  ],
+  "author": "lootos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LooT0S/forbidden-chat/issues"
+  },
+  "homepage": "https://github.com/LooT0S/forbidden-chat#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "nodemon": "^3.0.3",
+    "redis": "^4.6.13",
+    "ws": "^8.16.0"
+  }
+}
